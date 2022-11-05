@@ -28,7 +28,7 @@ internal class Program
             {
                 double score = Math.Round(prediction.Score, 2);
 
-                graphics.DrawRectangles(new Pen(prediction.Label.Color, 1),
+                graphics.DrawRectangles(new Pen(prediction.Label.Color, 3),
                     new[] { prediction.Rectangle });
 
                 var (x, y) = (prediction.Rectangle.X - 3, prediction.Rectangle.Y - 23);
