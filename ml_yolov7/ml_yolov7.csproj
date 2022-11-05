@@ -9,6 +9,17 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.ML" Version="1.7.1" />
+    <PackageReference Include="Microsoft.ML.OnnxTransformer" Version="1.7.1" />
+    <PackageReference Include="Yolov5Net" Version="1.0.9" />
   </ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE.txt"></None>
+		<None Include="..\README.md"></None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="assets\images\output\" />
+	</ItemGroup>
 
 </Project>
